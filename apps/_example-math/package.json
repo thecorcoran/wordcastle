@@ -1,0 +1,12 @@
+{
+  "name": "@word-castle/example-math",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@word-castle/core": "1.0.0"
+  }
+}

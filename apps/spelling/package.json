@@ -1,0 +1,14 @@
+{
+  "name": "@word-castle/spelling",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@word-castle/core": "1.0.0"
+  }
+}
