@@ -28,7 +28,7 @@ jobs:
       - run: npm run test
       - run: npm run validate:pack
       - run: npm run build --workspace=packages/core
-      - run: npm run build --workspace=apps/spelling -- --base=/spelling/
+      - run: npm run build --workspace=apps/spelling -- --base=/${{ github.event.repository.name }}/spelling/
       - name: Prepare Pages artifact
         run: |
           mkdir -p _site/spelling
